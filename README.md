@@ -12,4 +12,4 @@ On the second page you can observe all the items that you add to favorites.
 
 Fetch request is made with help of URLSession.
 
-[![Watch the video]]([https://youtu.be/ygMCyC_M89Y](https://youtube.com/shorts/A6E1J_5KWKk?feature=share)https://youtube.com/shorts/A6E1J_5KWKk?feature=share)
+[![Watch the video]](https://youtube.com/shorts/A6E1J_5KWKk?feature=share)
