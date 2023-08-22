@@ -7,18 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F080A7F92A92E10F001050F8 /* AppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F080A7F82A92E10F001050F8 /* AppErrors.swift */; };
+		F083B21C2A956AC6003FC924 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083B21B2A956AC6003FC924 /* FavoritesView.swift */; };
+		F083B21E2A956B60003FC924 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083B21D2A956B60003FC924 /* MainView.swift */; };
 		F085A3282A8A93B6004C0724 /* MontekristTestProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085A3272A8A93B6004C0724 /* MontekristTestProjectApp.swift */; };
-		F085A32A2A8A93B6004C0724 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085A3292A8A93B6004C0724 /* ContentView.swift */; };
+		F085A32A2A8A93B6004C0724 /* MontekristApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085A3292A8A93B6004C0724 /* MontekristApp.swift */; };
 		F085A32C2A8A93B8004C0724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F085A32B2A8A93B8004C0724 /* Assets.xcassets */; };
 		F085A32F2A8A93B8004C0724 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F085A32E2A8A93B8004C0724 /* Preview Assets.xcassets */; };
+		F085A33C2A8A94DE004C0724 /* SearchItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085A33B2A8A94DE004C0724 /* SearchItemView.swift */; };
+		F085A3402A8A951C004C0724 /* RealmServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085A33F2A8A951C004C0724 /* RealmServiceProtocol.swift */; };
+		F085A3432A8A9553004C0724 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = F085A3422A8A9553004C0724 /* Realm */; };
+		F085A3452A8A9553004C0724 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F085A3442A8A9553004C0724 /* RealmSwift */; };
+		F085A3492A8A9625004C0724 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085A3482A8A9625004C0724 /* RealmService.swift */; };
+		F085A34B2A8A96DF004C0724 /* FetchItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085A34A2A8A96DF004C0724 /* FetchItemsViewModel.swift */; };
+		F085A35A2A8BE656004C0724 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085A3592A8BE656004C0724 /* Route.swift */; };
+		F085A3602A8CC78A004C0724 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085A35F2A8CC78A004C0724 /* ItemModel.swift */; };
+		F085A3622A92B501004C0724 /* FavoritesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085A3612A92B501004C0724 /* FavoritesModel.swift */; };
+		F085A3672A92BB68004C0724 /* PlanetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085A3632A92BB68004C0724 /* PlanetModel.swift */; };
+		F085A3682A92BB68004C0724 /* FilmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085A3642A92BB68004C0724 /* FilmModel.swift */; };
+		F085A3692A92BB68004C0724 /* StarshipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085A3652A92BB68004C0724 /* StarshipModel.swift */; };
+		F085A36A2A92BB68004C0724 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085A3662A92BB68004C0724 /* PersonModel.swift */; };
+		F085A36C2A92BB91004C0724 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085A36B2A92BB91004C0724 /* ResponseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F080A7F82A92E10F001050F8 /* AppErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppErrors.swift; sourceTree = "<group>"; };
+		F083B21B2A956AC6003FC924 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		F083B21D2A956B60003FC924 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F085A3242A8A93B6004C0724 /* MontekristTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MontekristTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F085A3272A8A93B6004C0724 /* MontekristTestProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontekristTestProjectApp.swift; sourceTree = "<group>"; };
-		F085A3292A8A93B6004C0724 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F085A3292A8A93B6004C0724 /* MontekristApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontekristApp.swift; sourceTree = "<group>"; };
 		F085A32B2A8A93B8004C0724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F085A32E2A8A93B8004C0724 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F085A33B2A8A94DE004C0724 /* SearchItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemView.swift; sourceTree = "<group>"; };
+		F085A33F2A8A951C004C0724 /* RealmServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmServiceProtocol.swift; sourceTree = "<group>"; };
+		F085A3482A8A9625004C0724 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		F085A34A2A8A96DF004C0724 /* FetchItemsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchItemsViewModel.swift; sourceTree = "<group>"; };
+		F085A3592A8BE656004C0724 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		F085A35F2A8CC78A004C0724 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		F085A3612A92B501004C0724 /* FavoritesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesModel.swift; sourceTree = "<group>"; };
+		F085A3632A92BB68004C0724 /* PlanetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetModel.swift; sourceTree = "<group>"; };
+		F085A3642A92BB68004C0724 /* FilmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmModel.swift; sourceTree = "<group>"; };
+		F085A3652A92BB68004C0724 /* StarshipModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarshipModel.swift; sourceTree = "<group>"; };
+		F085A3662A92BB68004C0724 /* PersonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		F085A36B2A92BB91004C0724 /* ResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F085A3452A8A9553004C0724 /* RealmSwift in Frameworks */,
+				F085A3432A8A9553004C0724 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +85,11 @@
 		F085A3262A8A93B6004C0724 /* MontekristTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				F085A3382A8A9489004C0724 /* Models */,
+				F085A3372A8A947D004C0724 /* Services */,
+				F085A3362A8A9472004C0724 /* ViewModels */,
+				F085A3352A8A9468004C0724 /* Views */,
 				F085A3272A8A93B6004C0724 /* MontekristTestProjectApp.swift */,
-				F085A3292A8A93B6004C0724 /* ContentView.swift */,
 				F085A32B2A8A93B8004C0724 /* Assets.xcassets */,
 				F085A32D2A8A93B8004C0724 /* Preview Content */,
 			);
@@ -65,6 +102,50 @@
 				F085A32E2A8A93B8004C0724 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F085A3352A8A9468004C0724 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F083B21D2A956B60003FC924 /* MainView.swift */,
+				F085A3292A8A93B6004C0724 /* MontekristApp.swift */,
+				F083B21B2A956AC6003FC924 /* FavoritesView.swift */,
+				F085A33B2A8A94DE004C0724 /* SearchItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F085A3362A8A9472004C0724 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F085A34A2A8A96DF004C0724 /* FetchItemsViewModel.swift */,
+				F080A7F82A92E10F001050F8 /* AppErrors.swift */,
+				F085A3592A8BE656004C0724 /* Route.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F085A3372A8A947D004C0724 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F085A33F2A8A951C004C0724 /* RealmServiceProtocol.swift */,
+				F085A3482A8A9625004C0724 /* RealmService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F085A3382A8A9489004C0724 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F085A3642A92BB68004C0724 /* FilmModel.swift */,
+				F085A3662A92BB68004C0724 /* PersonModel.swift */,
+				F085A3632A92BB68004C0724 /* PlanetModel.swift */,
+				F085A36B2A92BB91004C0724 /* ResponseModel.swift */,
+				F085A3652A92BB68004C0724 /* StarshipModel.swift */,
+				F085A35F2A8CC78A004C0724 /* ItemModel.swift */,
+				F085A3612A92B501004C0724 /* FavoritesModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +164,10 @@
 			dependencies = (
 			);
 			name = MontekristTestProject;
+			packageProductDependencies = (
+				F085A3422A8A9553004C0724 /* Realm */,
+				F085A3442A8A9553004C0724 /* RealmSwift */,
+			);
 			productName = MontekristTestProject;
 			productReference = F085A3242A8A93B6004C0724 /* MontekristTestProject.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +196,9 @@
 				Base,
 			);
 			mainGroup = F085A31B2A8A93B6004C0724;
+			packageReferences = (
+				F085A3412A8A9553004C0724 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = F085A3252A8A93B6004C0724 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +225,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F085A32A2A8A93B6004C0724 /* ContentView.swift in Sources */,
+				F085A3692A92BB68004C0724 /* StarshipModel.swift in Sources */,
+				F085A3492A8A9625004C0724 /* RealmService.swift in Sources */,
+				F085A36A2A92BB68004C0724 /* PersonModel.swift in Sources */,
+				F085A3672A92BB68004C0724 /* PlanetModel.swift in Sources */,
+				F085A35A2A8BE656004C0724 /* Route.swift in Sources */,
+				F085A32A2A8A93B6004C0724 /* MontekristApp.swift in Sources */,
+				F085A34B2A8A96DF004C0724 /* FetchItemsViewModel.swift in Sources */,
 				F085A3282A8A93B6004C0724 /* MontekristTestProjectApp.swift in Sources */,
+				F085A3602A8CC78A004C0724 /* ItemModel.swift in Sources */,
+				F085A33C2A8A94DE004C0724 /* SearchItemView.swift in Sources */,
+				F085A3682A92BB68004C0724 /* FilmModel.swift in Sources */,
+				F083B21E2A956B60003FC924 /* MainView.swift in Sources */,
+				F085A36C2A92BB91004C0724 /* ResponseModel.swift in Sources */,
+				F083B21C2A956AC6003FC924 /* FavoritesView.swift in Sources */,
+				F080A7F92A92E10F001050F8 /* AppErrors.swift in Sources */,
+				F085A3402A8A951C004C0724 /* RealmServiceProtocol.swift in Sources */,
+				F085A3622A92B501004C0724 /* FavoritesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +442,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F085A3412A8A9553004C0724 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F085A3422A8A9553004C0724 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F085A3412A8A9553004C0724 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		F085A3442A8A9553004C0724 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F085A3412A8A9553004C0724 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F085A31C2A8A93B6004C0724 /* Project object */;
 }
